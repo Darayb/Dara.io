@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+height:200px ;
+background-size: cover;
+}
+.form-element{
+    background: white;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(0, 0, 0, 0.15);
+    font-family: "Raleway" , sans-serif;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    visibility: hiden;
+
+}
+.congrats{
+    position:fixed;
+top:20%;
+left:38%;
+visibility: hidden;
+}
+.lottie{
+    position:fixed;
+    left:46%;
+    top: 5%;
+}
+.close-btn{
+    position: fixed;
+    top: 0%;
+    left: 92%;
+    font-size: 35px;
+    color: rgb(85, 130, 141);
+    cursor: pointer;
+}
+.form-element h2{
+    text-align: center;
+    font-weight:600;
+}
+.form-element label{
+    font-weight: 500;
+    font-size: 15px;
+    color: #222;
+}
+.form-element input[type="text"],
+.form-element input[type="password"]
+{
+    margin: 10px  41.9px;
+    padding: 14px 63px;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #222;
+    font-size: 15px;
+border: 2px solid   #0e0f25;
+;
+
+}
+.form-element label{
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+}
+.form-element a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 8);
+    font-weight: 800;
+    position: fixed;
+    left: 65%;
+    top: 92%;
+    font-size: 12px;
+}
+.form-element button{
+    width: 90%;
+    height: 30px;
+    margin: 10px 22px;
+    background:#009EF3;
+opacity: 0.8;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.form-element button:hover{
+    opacity:1;
+}

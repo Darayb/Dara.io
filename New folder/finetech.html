@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dara FineTech.io</title>
+    <link rel="stylesheet" href="tech.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+<script>
+    function fun(){
+        window.alert("Under maintenance");
+    }
+</script>
+</head>
+<body>
+    <h1>Dara<span>.io</span></h1>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <lottie-player src="https://lottie.host/e806ab00-2de9-49d2-92bc-49ef3abaa8e7/TXfzHrxTuc.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay id="net"></lottie-player>
+    <div class="form" id="form">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player id="pay" src="https://assets6.lottiefiles.com/private_files/lf30_rdtlewvq.json"  background="transparent"  speed="1"  style="width: 170px; height: 170px;"  loop  autoplay></lottie-player>
+        <h2>Payment Details</h2>
+        <div class="image">
+            <img src="C:\Users\User\Downloads\card.png" alt="">
+            <img src="C:\Users\User\Downloads\inter.png" alt="">
+            <img src="C:\Users\User\Downloads\discover.png" alt="">
+            <img src="C:\Users\User\Downloads\ame.png" alt="">
+        
+        
+        
+        </div>
+        <form action="" >
+            <label for="card">CARD NUMBER </label><br>
+            <input type="text" name="card" placeholder="0000 0000 0000 0000" aria-required="true" class="others" minlength="16" maxlength="16"><br>
+            <label for="EXP">CARD DETAILS</label><br>
+            <input type="text" name="EXP" placeholder="MM/YY" aria-required="true" class="other">
+         <div class="cv">   <input type="text" name="CVC" placeholder="CVV" aria-required="true" >
+            </div>
+            <div class="oth">
+                <label for="CardOwnerName">AMOUNT</label><br>
+                <input type="text" name="CardOwnerName" placeholder="NGN" aria-required="true"  minlength="10"  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"> 
+            </div>
+
+            <br>
+         <div class="othe">
+            <label for="CardOwnerName">CARD OWNER</label><br>
+            <input type="text" name="CardOwnerName" placeholder="Valid Card Owner" aria-required="true" class="othe">
+    
+         </div>
+           <button  class="shake-little"  onclick="fun()"><span class="material-symbols-outlined">
+            lock
+            </span> </button>
+        </form>
+        
+    </div>
+   
+</body>
+</html>

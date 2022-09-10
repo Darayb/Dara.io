@@ -1,0 +1,224 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+background-color: #ffff;
+    
+}
+#pay{
+position: fixed;
+left: 67%;
+
+}
+h2{
+    font-weight:900;
+    color: #17285D;
+    position: fixed;
+    top: 27%;
+    left: 66%;
+    font-family: 'Lexend Exa', sans-serif;
+}
+h1{
+    color: #009EF3;
+    font-size: 125px;
+    font-family: 'Palanquin Dark', sans-serif;
+    position: absolute;
+    left: 6%;
+    top: 0%;
+}
+h1 span{
+    color: #3A3D7C;
+    font-size: 50px;
+}
+.nav1{
+    position: fixed;
+    top: 30%;
+}
+.nav1 ul{
+    list-style: none;
+
+}
+.nav1 ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 26px;
+}
+.nav1 ul li{
+    font-size: 20px;
+    margin: 60px 40px;
+    background: #92d3f7;
+    width: 400px;
+    height: 60px;
+    border-radius: 20px;
+    word-spacing: 10px;
+font-size: 20px;
+font-weight:800;
+color: #17285D;
+}
+.image img{
+    width: 63px;
+}
+.image{
+    position: fixed;
+    top: 37%;
+    left: 64%;
+}
+.other{
+    width: 75px;
+    height: 35px;
+    position: fixed;
+    top: 65.3%;
+    left: 64%;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #009EF3;
+    background: none;
+    outline:none;
+    transition: 0.7s ease-in-out;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+}
+form {
+top: 49%;
+left: 62%;
+position: fixed;
+
+}
+label{
+    position:fixed;
+margin: auto 25px;
+font-weight: 800;
+font-family: 'Roboto', sans-serif;
+color: #3A3D7C;
+font-size: 12px;
+}
+#form{
+height:600px;
+background: #f1f2f6;
+width: 530px;
+box-shadow: 0px -2px 30px 6px rgba(189, 198, 244, 0.74);
+border-radius: 10px;
+position: absolute;
+left: 55%;
+top: 6%;
+
+
+}
+.cv input[type="text"]{
+    width: 50px;
+    position: fixed;
+    height: 35px;
+    position: fixed;
+    top: 65.3%;
+    left: 70.3%;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #009EF3;
+    background: none;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+    outline:none;
+    transition: 0.7s ease-in-out;    
+}
+.oth input[type="text"]{
+    width: 111px;
+    height: 35px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #009EF3;
+    background: none;
+    outline:none;
+    transition: 0.7s ease-in-out;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+    outline:none;
+    transition: 0.7s ease-in-out;
+}
+.oth{
+    position: fixed;
+    left: 75.2%;
+    top: 61%;
+}
+.others{
+    width: 285px;
+    height: 35px;
+    margin: 10px 27px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #009EF3;
+    background: none;
+    outline:none;
+    transition: 0.7s ease-in-out;
+    align-items: center;
+    text-align: center;
+    text-justify: auto;
+}
+.othe input[type="text"]{
+    width: 285px;
+    height: 35px;
+    margin: 27px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #009EF3;
+    background: none;
+    outline:none;
+transition: 0.7s ease-in-out;
+align-items: center;
+text-align: center;
+text-justify: auto;
+}
+.othe{
+    position: fixed;
+    left: 62.5%;
+    top: 73%;
+}
+.others:focus{
+    border: 2px solid #8dc7e6;
+    width: 290px;
+
+}
+.other:focus{
+    border: 2px solid #8dc7e6;
+    width: 77px;
+
+}
+.othe input[type="text"]:focus{
+    border: 2px solid #8dc7e6;
+    width: 290px;
+
+}
+.cv input[type="text"]:focus{
+    border: 2px solid #8dc7e6;
+    width: 53px;
+
+}
+button{
+    width: 120px;
+    height: 35px;
+    background: #2b4db3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 90%;
+    left: 70%;
+}
+button span{
+    font-weight: 900;
+    font-size: 20px;
+}
+.oth input[type="text"]:focus{
+    border: 2px solid #8dc7e6;
+    width: 114px;
+
+}
+#net{
+    position: fixed;
+    top: 40%;
+    left: 5.2%;
+}
